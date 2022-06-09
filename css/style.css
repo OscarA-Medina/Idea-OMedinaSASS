@@ -1,0 +1,152 @@
+@charset "UTF-8";
+body {
+  background-image: url("../multimedia/images/fondo-gris-oscuro-plano.jpg"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.img-logoinicial1 {
+  width: 100%;
+  display: none; }
+
+.encabezado-color {
+  color: #fff;
+  padding: 50px; }
+
+/* Enlaces redes y carrusel */
+.enlaces-style {
+  height: 100%;
+  padding: 20px; }
+
+li {
+  margin: 10px 10px; }
+
+.redes-trans:hover {
+  transform: scale(1.2);
+  transition: all 0.5s; }
+
+.redes-trans .img-logos {
+  width: 25%; }
+
+/* Bio */
+section .bio-color {
+  color: #fff;
+  font-size: 1.5em; }
+
+section .bio-box {
+  border: none;
+  width: 100%;
+  padding: 50px 0 50px 0; }
+
+section .bio-titulo {
+  border: none;
+  width: 100%;
+  padding: 20px 50px 50px 20px; }
+
+.bio-color p {
+  color: #fff;
+  font-size: 1.5em; }
+
+/* Sección Audio y Playlist */
+.bio-color p {
+  color: #fff;
+  font-size: 1.5em; }
+
+.audio-box {
+  border: none;
+  padding: 0 0 30px 20px;
+  margin: 80px 0 0 0; }
+
+section div .audios-model {
+  border: none;
+  margin: 10px; }
+
+section img .img-tapas {
+  width: 100%; }
+
+section img .grid-item1 {
+  grid-area: foto1;
+  width: 100%; }
+
+section img .grid-item2 {
+  grid-area: foto2;
+  width: 100%; }
+
+section img .grid-item3 {
+  grid-area: foto3;
+  width: 100%; }
+
+section audio .audio4 {
+  grid-area: audio4;
+  width: 100%; }
+
+section audio .audio5 {
+  grid-area: audio5;
+  width: 100%; }
+
+section audio .audio6 {
+  grid-area: audio6;
+  width: 100%; }
+
+section div .container-iframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.225%; }
+
+section iframe .playlist7 {
+  padding: 50px;
+  display: block; }
+
+section iframe .responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+/* Sección footer y contacto */
+.footer-conf {
+  background-color: black;
+  color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.contacto-style {
+  color: #fff; }
+
+/* media queries*/
+@media screen and (max-width: 698px) {
+  .img-logoinicial1 {
+    width: 100%;
+    display: block; }
+  .playlist7 {
+    display: none; }
+  .transition-card:hover {
+    transform: none;
+    transition: none; }
+  .container-audio {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 70px;
+    padding-right: 20px; }
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 100%; }
+  .container-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 66.66%; } }
