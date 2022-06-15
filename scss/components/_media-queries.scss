@@ -1,0 +1,43 @@
+/* media queries*/
+
+@media screen and (max-width: 698px) {
+    .img-logoinicial1 {
+        width: 100%;
+        display: block;
+    }
+
+    .playlist7 {
+        display: none
+    }
+
+    .transition-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .container-audio {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 70px;
+        padding-right: 20px;
+    }
+
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 80%;
+        height: 100%;
+    }
+
+    .container-iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 66.66%
+    }
+}

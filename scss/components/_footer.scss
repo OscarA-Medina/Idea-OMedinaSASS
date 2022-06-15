@@ -1,0 +1,19 @@
+/* Sección footer y contacto */
+
+@import "base/variables";
+
+.footer-conf {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.contacto-style {
+
+    color: $color-principal;
+
+}

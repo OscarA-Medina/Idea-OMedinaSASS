@@ -1,0 +1,61 @@
+/* Enlaces redes y carrusel */
+
+@import "base/variables";
+
+.enlaces-style {
+    height: 100%;
+    padding: 20px;
+}
+
+li {
+    margin: 10px 10px;
+}
+
+.redes-trans {
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.5s;
+    }
+
+    .img-logos {
+        width: 25%;
+    }
+
+}
+
+
+
+/* Bio */
+
+section {
+
+    .bio-color {
+        color: $color-principal;
+        font-size: 1.5em;
+    }
+
+    .bio-box {
+        border: none;
+        width: 100%;
+        padding: 50px 0 50px 0;
+    }
+
+
+
+
+    .bio-titulo {
+
+        border: none;
+        width: 100%;
+        padding: 20px 50px 50px 20px;
+
+    }
+}
+
+.bio-color {
+    p {
+        color: $color-principal;
+        font-size: 1.5em;
+    }
+
+}
