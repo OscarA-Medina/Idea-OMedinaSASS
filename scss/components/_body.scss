@@ -1,5 +1,7 @@
 // Cambio de fonto general del cuerpo
 
+@import "base/mixins";
+
 body {
     background-image: url("../multimedia/images/fondo-gris-oscuro-plano.jpg");
 
@@ -7,6 +9,5 @@ body {
 
 
 * {
-    margin: 0;
-    padding: 0;
+    @include margenes(0, 0)
 }

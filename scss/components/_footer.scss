@@ -1,6 +1,9 @@
 /* Sección footer y contacto */
 
 @import "base/variables";
+@import "base/extends";
+
+
 
 .footer-conf {
     background-color: rgb(0, 0, 0);
@@ -9,11 +12,12 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 
 .contacto-style {
-
-    color: $color-principal;
+    @extend %textos 
 
 }
+

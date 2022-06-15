@@ -3,8 +3,8 @@ body {
   background-image: url("../multimedia/images/fondo-gris-oscuro-plano.jpg"); }
 
 * {
-  margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
 
 /* Header */
 .img-logoinicial1 {
@@ -16,6 +16,10 @@ body {
   padding: 50px; }
 
 /* Enlaces redes y carrusel */
+section .bio-color, .bio-color p, .contacto-style {
+  color: #fff;
+  font-size: 1.5em; }
+
 .enlaces-style {
   height: 100%;
   padding: 20px; }
@@ -31,10 +35,6 @@ li {
   width: 25%; }
 
 /* Bio */
-section .bio-color {
-  color: #fff;
-  font-size: 1.5em; }
-
 section .bio-box {
   border: none;
   width: 100%;
@@ -45,12 +45,8 @@ section .bio-titulo {
   width: 100%;
   padding: 20px 50px 50px 20px; }
 
-.bio-color p {
-  color: #fff;
-  font-size: 1.5em; }
-
 /* Sección Audio y Playlist */
-.bio-color p {
+section .bio-color, .bio-color p, .contacto-style {
   color: #fff;
   font-size: 1.5em; }
 
@@ -110,6 +106,10 @@ section iframe .responsive-iframe {
   height: 100%; }
 
 /* Sección footer y contacto */
+section .bio-color, .bio-color p, .contacto-style {
+  color: #fff;
+  font-size: 1.5em; }
+
 .footer-conf {
   background-color: black;
   color: black;
@@ -117,9 +117,6 @@ section iframe .responsive-iframe {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
-
-.contacto-style {
-  color: #fff; }
 
 /* media queries*/
 @media screen and (max-width: 698px) {
@@ -151,3 +148,7 @@ section iframe .responsive-iframe {
     overflow: hidden;
     width: 100%;
     padding-top: 66.66%; } }
+
+section .bio-color, .bio-color p, .contacto-style {
+  color: #fff;
+  font-size: 1.5em; }

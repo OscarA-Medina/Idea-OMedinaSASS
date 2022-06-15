@@ -1,6 +1,7 @@
 /* Enlaces redes y carrusel */
 
 @import "base/variables";
+@import "base/extends";
 
 .enlaces-style {
     height: 100%;
@@ -30,8 +31,7 @@ li {
 section {
 
     .bio-color {
-        color: $color-principal;
-        font-size: 1.5em;
+        @extend %textos
     }
 
     .bio-box {
@@ -54,8 +54,7 @@ section {
 
 .bio-color {
     p {
-        color: $color-principal;
-        font-size: 1.5em;
+        @extend %textos
     }
 
 }

@@ -1,0 +1,6 @@
+
+@mixin margenes ($relleno, $margen) {
+    padding: $relleno;
+    margin: $margen;
+}
+    

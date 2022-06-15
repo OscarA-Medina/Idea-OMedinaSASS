@@ -1,12 +1,12 @@
 /* Sección Audio y Playlist */
 
 @import "base/variables";
+@import "base/extends";
+@import "base/mixins";
 
 .bio-color {
     p {
-
-        color: $color-principal;
-        font-size: 1.5em;
+        @extend %textos
     }
 
 }
@@ -15,8 +15,7 @@
 
 .audio-box {
     border: none;
-    padding: 0 0 30px 20px;
-    margin: 80px 0 0 0;
+    @include margenes(0 0 30px 20px, 80px 0 0 0);
 
 }
 
