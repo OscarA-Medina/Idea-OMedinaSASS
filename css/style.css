@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-image: url("../multimedia/images/fondo-gris-oscuro-plano.jpg"); }
+  background-image: url(../multimedia/images/fondo-gris-oscuro-plano.webp); }
 
 * {
   padding: 0;
