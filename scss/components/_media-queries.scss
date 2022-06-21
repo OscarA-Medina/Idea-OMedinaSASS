@@ -1,6 +1,24 @@
 /* media queries*/
 
 @media screen and (max-width: 698px) {
+
+    /* Medias en seccion P. Audiovisuales*/
+
+    div{
+
+        .grid-video-container {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 30%);
+            gap: 10px 15px;
+            padding: 20px 25px 0 80px;
+            margin: 30px;
+            grid-template-areas:
+            "video1"
+            "video2"
+            "video3";
+        }
+    }
     .img-logoinicial1 {
         width: 100%;
         display: block;
@@ -26,7 +44,7 @@
     }
 
     .responsive-audio {
-        margin: 0 0 0 80px;
+        margin: 0 0 0 90px;
     }
 
     .responsive-iframe {
@@ -46,20 +64,7 @@
         padding-top: 66.66%
     }
 
-    /* Medias en seccion P. Audiovisuales*/
-
-    .grid-video-container {
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(3, 30%);
-        gap: 10px 15px;
-        padding: 20px 25px 0 80px;
-        margin: 30px;
-        grid-template-areas:
-        "video1"
-        "video2"
-        "video3";
-    }
+    
 }
 
 @media screen and (min-width: 699px) and (max-width: 1080px) {
