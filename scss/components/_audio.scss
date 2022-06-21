@@ -57,6 +57,7 @@ section {
         .audio4 {
             grid-area: audio4;
             width: 100%;
+            
 
         }
 
@@ -72,6 +73,8 @@ section {
             width: 100%;
 
         }
+
+    
     }
 
     div {
@@ -80,7 +83,14 @@ section {
             position: relative;
             overflow: hidden;
             width: 100%;
-            padding-top: 56.225%
+            margin: 50px;
+            
+        }
+
+        .playlist-texto {
+            margin: 40px 0 0 0;
+            text-align: center;
+            font-size: xx-large;
         }
     }
 

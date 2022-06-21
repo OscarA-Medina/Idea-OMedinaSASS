@@ -46,7 +46,7 @@
         Oscar Medina - MOROCHO
       </h1>
       <div class="container-fluid">
-        <a class="nav-link active text-light" href="#bio">Biografía</a>
+        <a class="nav-link active text-light display-font-sizes" href="#bio">Biografía</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -54,13 +54,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#audio">Audio</a>
+              <a class="nav-link active display-font-sizes" aria-current="page" href="#audio">Audio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="proyectos-audiovisuales.html">Proyectos Audiovisuales</a>
+              <a class="nav-link active display-font-sizes" href="proyectos-audiovisuales.html">Proyectos Audiovisuales</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle active display-font-sizes" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Servicios y Contacto
               </a>
@@ -124,15 +124,15 @@
 
 
 
-  <nav class="enlaces-style">
-    <div class="container">
-      <ul>
+  <nav class="enlaces-style bg-black">
+    <div>
+      <ul class="container ">
         <li class="row justify-content-center align-item-center">
-          <a class="col redes-trans" href="https://www.instagram.com/morocho.co/"><img class="img-logos"
+          <a class="col-2 redes-trans" href="https://www.instagram.com/morocho.co/"><img class="img-logos img-logos-redes"
               src="multimedia/images/instagramfreepic-png.png" alt="Redes sociales Oscar Medina"></a>
-          <a class="col redes-trans" href="https://www.youtube.com/channel/UCyW1kNQirUQZBLkM6f3zD0A"><img
+          <a class="col-2 redes-trans" href="https://www.youtube.com/channel/UCyW1kNQirUQZBLkM6f3zD0A"><img
               class="img-logos" src="multimedia/images/youtube-png.png" alt="Redes Sociales Oscar Medina"></a>
-          <a class="col redes-trans" href="https://soundcloud.com/morocho-co"><img class="img-logos"
+          <a class="col-2 redes-trans" href="https://soundcloud.com/morocho-co"><img class="img-logos"
               src="multimedia/images/soundcloudlogo-png.png" alt="Redes sociales Oscar Medina"></a>
         </li>
       </ul>
@@ -146,10 +146,10 @@
 
   <section id="bio" class="bio-color bio-box">
 
-    <h3 class="bio-titulo">
-      Biografía
+    <h3 class="bio-titulo bio-color bio-orden">
+      BIOGRAFÍA
     </h3>
-    <div class="m-2 justify-content-center">
+    <div class="m-2 justify-content-center bio-orden font-size-bio">
       <p>Ingeniero de sonido y productor musical con más de 3 años de experiencia en grabación, mezcla, mastering,
         producción musical y
         postproducción para audiovisuales y campañas publicitarias. </p>
@@ -186,11 +186,11 @@
   <!-- Audio y lista de Spotify-->
 
   <section>
-    <h3 id="audio" class="bio-color audio-box">
+    <h3 id="audio" class="bio-color audio-box p-5 bg-black">
       AUDIO
     </h3>
   
-    <p class="bio-color m-4">Estos son ejemplos de singles trabajados con artistas:</p>
+    <p class="bio-color bio-orden">Estos son ejemplos de singles trabajados con artistas:</p>
   </section>
 
   <section class="audio-model">
@@ -206,7 +206,7 @@
           </div>
         </div>
         <div class="col-3 audios-model container-audio">
-          <p class="bio-color responsive-audio text-center">Escúchala aquí abajo</p>
+          <p class="bio-color text-center">Escúchala aquí abajo</p>
           <audio class="audio4 responsive-audio" src="multimedia/audio/lalomadelacruzmaster1.wav" controls>La loma de la Cruz</audio>
         </div>
       </div>
@@ -219,7 +219,7 @@
           </div>
         </div>
         <div class="col-3 audios-model container-audio">
-          <p class="bio-color responsive-audio text-center">Escúchala aquí abajo</p>
+          <p class="bio-color text-center">Escúchala aquí abajo</p>
           <audio class="audio5 responsive-audio" src="multimedia/audio/santamoleculamaster2.wav" controls>Santa molecula</audio>
         </div>
       </div>
@@ -232,20 +232,18 @@
           </div>
         </div>
         <div class="col-3 audios-model container-audio">
-          <p class="bio-color responsive-audio text-center"> Escúchala aquí abajo</p>
+          <p class="bio-color text-center"> Escúchala aquí abajo</p>
           <audio class="audio6 responsive-audio" src="multimedia/audio/amorensueñosmaster1.wav" controls>Amor en sueños</audio>
         </div>
       </div>
+      <div class="container">
+        <p class="bio-color playlist-texto playlist7"> Te invito a escuchar mi playlist en Spotify</p>
 
-      <p class="bio-color m-2 playlist7"> Te invito a escuchar mi playlist en Spotify</p>
-
-      <div class="container-iframe">
-        <iframe class="playlist7 responsive-iframe" src="https://open.spotify.com/embed/playlist/7KkKDkVWt1xjoqfX4yNsWZ" width="500"
-          height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
-        </iframe>
-
+        <div class="container-iframe row">
+          <iframe class="playlist7 responsive-iframe col" src="https://open.spotify.com/embed/playlist/7KkKDkVWt1xjoqfX4yNsWZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
       </div>
-      </div>
+        
     </section>
 
     <section>

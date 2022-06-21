@@ -6,6 +6,7 @@
         display: block;
     }
 
+
     .playlist7 {
         display: none
     }
@@ -24,6 +25,10 @@
         padding-right: 20px;
     }
 
+    .responsive-audio {
+        margin: 0 0 0 80px;
+    }
+
     .responsive-iframe {
         position: absolute;
         top: 0;
@@ -40,4 +45,46 @@
         width: 100%;
         padding-top: 66.66%
     }
+
+    /* Medias en seccion P. Audiovisuales*/
+
+    .grid-video-container {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 30%);
+        gap: 10px 15px;
+        padding: 20px 25px 0 80px;
+        margin: 30px;
+        grid-template-areas:
+        "video1"
+        "video2"
+        "video3";
+    }
+}
+
+@media screen and (min-width: 699px) and (max-width: 1080px) {
+    .grid-video-container {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 30%);
+        gap: 50px 100px;
+        padding: 20px 0 0 50px;
+        grid-template-areas:
+        "video1 video2"
+        "video3 video3";
+    }
+
+    .transition-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .container-iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 50%
+      }
+
+    
 }
